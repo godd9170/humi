@@ -1,7 +1,7 @@
 /* avatar caret */
 
 .caret-container {
-  padding: 0.2em 1.2em 0.65em 0;
+  padding: 0.2em 0.9em 0.65em 0;
 }
 
 .caret {
@@ -41,7 +41,7 @@
   content: '';
   position: absolute;
   bottom: -1.5em;
-  left: 11.2em;
+  left: 12.3em;
   border-top: 7px solid #949494;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
@@ -61,7 +61,7 @@
 }
 .list-caret:after, .list-caret:before {
   bottom: 100%;
-  left: 17%;
+  left: 12%;
   border: solid transparent;
   content: " ";
   height: 0;
@@ -79,6 +79,6 @@
 .list-caret:before {
   border-color: rgba(194, 225, 245, 0);
   border-bottom-color: rgba(0,0,0,0.10);
-  border-width: 10px;
-  margin-left: -10px;
+  border-width: 11px;
+  margin-left: -11px;
 }

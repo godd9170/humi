@@ -12,7 +12,7 @@ body {
 
 .heavy {
 	font-weight: bold;
-	color: rgba(0,0,0,0.95);
+	color: rgba(0,0,0,0.70);
 }
 
 .light {
@@ -44,11 +44,12 @@ header > .right {
 }
 
 .logo {
-	font-size: 1.8em;
+	font-size: 1.55em;
+	color: rgba(0,0,0,0.70);
 }
 
 .logo-text {
-	padding-left: 0.6em;
+	padding-left: 0.5em;
 }
 
 .user {
@@ -91,7 +92,7 @@ header > .right {
 
 .list-icon {
 	color: rgba(0,0,0,0.50);
-	font-size: 2.8em;
+	font-size: 2.1em;
 	padding-right: 0.6em;
 }
 
@@ -107,7 +108,7 @@ header > .right {
 .list-title {
 	flex: 1;
 	text-align: left;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	color: rgba(0,0,0,0.69);
 	font-weight: 200;
 }
@@ -115,18 +116,19 @@ header > .right {
 /* Right Widget */
 
 .settings {
-	padding: 1.7em 1.5em;
+	padding: 1.9em 1.5em;
 	color: rgba(0,0,0,0.51);
+	font-size: 0.9em;
 }
 
 .settings-title {
-	color: rgba(0,0,0,0.75);
-	font-size: 1.5em;
+	color: rgba(0,0,0,0.70);
+	font-size: 1.30em;
 	border-bottom: 1px solid rgba(0,0,0,0.10);
 }
 
 .settings-body {
-	line-height: 1.2em;
+	line-height: 1.3em;
 	padding: 1em 0;
 }
 
@@ -188,7 +190,6 @@ select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	background: url('yoururl/dropdown.png') no-repeat 97% 50% #ffffff;
 }
 select[multiple] {
     height: auto;
@@ -204,17 +205,18 @@ select[multiple] {
 	border: 1px solid rgba(0,0,0,0.15);
 	border-radius: 50%;
 	padding: 0.5em;
-	font-size: 2em;
+	font-size: 1.6em;
 	color: rgba(0,0,0,0.35);
 }
 
 .footer-items {
 	width: 100%;
+	font-size: 0.8em;
 }
 
 .footer-item > span{
 	text-decoration: underline;
-	color: rgba(0,0,0,0.35);
+	color: rgba(0,0,0,0.40);
 	cursor: pointer;
 }
 
