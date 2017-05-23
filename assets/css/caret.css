@@ -1,9 +1,11 @@
+/* avatar caret */
+
 .caret-container {
-  padding: 0 1.2em 0.65em 0;
+  padding: 0.2em 1.2em 0.65em 0;
 }
 
 .caret {
-  position: relative;
+  position: absolute;
 }
 
 .caret:before {
@@ -21,6 +23,33 @@
   position: absolute;
   left: 100px;
   top: 0;
+  border-top: -90px solid #eeeeee;
+  border-left: -90px solid transparent;
+  border-right: -90px solid transparent;
+}
+
+/* select caret */
+.select-caret-container {
+  position: relative;
+}
+
+.select-caret {
+  position: absolute;
+}
+
+.select-caret:before {
+  content: '';
+  position: absolute;
+  bottom: -1.5em;
+  left: 11.2em;
+  border-top: 7px solid #949494;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+
+.select-caret:after {
+  content: '';
+  position: absolute;
   border-top: -90px solid #eeeeee;
   border-left: -90px solid transparent;
   border-right: -90px solid transparent;
