@@ -1,0 +1,43 @@
+.site {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+	width: 940px; 
+	margin: 0 auto;
+}
+
+.grid {
+	display: flex;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.cell {
+	flex: 1;
+}
+
+.auto {
+	flex: none;
+}
+
+.top {
+  align-items: flex-start;
+}
+
+.center {
+	align-items: center;
+}
+
+.justifyCenter {
+	justify-content: center;
+}
+
+.u-1of4 {
+	flex: 0 0 25%;
+}

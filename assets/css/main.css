@@ -1,0 +1,202 @@
+/* Humi Font */
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+
+/* Global */
+body {
+	font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    margin: 0px;
+}
+
+.heavy {
+	font-weight: bold;
+	color: rgba(0,0,0,0.95);
+}
+
+.light {
+	color: rgba(0,0,0,0.31);
+	font-weight: 200;
+}
+
+/* Header/Footer */
+header, footer {
+	padding: 1em 2em;
+	display: flex;
+}
+
+header > div {
+	display: flex;
+	border-bottom: 1px solid rgba(0,0,0,0.10);
+	padding-bottom: 1em;
+}
+
+header > .left {
+	flex: 1;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+header > .right {
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.logo {
+	font-size: 1.8em;
+}
+
+.logo-text {
+	padding-left: 0.6em;
+}
+
+.avatar {
+	width: 30px;
+    height: 30px;
+    background-image: url("../img/matt.jpeg");
+    background-size: 100% 100%;
+    clear: none;
+    margin-left: 0.8em;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.10);
+}
+
+.widget {
+	border: 1px solid rgba(0,0,0,0.10);
+	border-radius: 0.5em;
+	margin: 1em;
+}
+
+/* Main */
+
+/* Left Widget */
+.list > div:not(:last-child) {
+	border-bottom: 1px solid rgba(0,0,0,0.10);
+	background-color: rgba(0,0,0,0.03);
+}
+
+.list-item {
+	padding: 1em;
+	cursor: pointer;
+}
+
+.list-item:hover {
+	background-color: #fff;
+}
+
+.list-icon {
+	color: rgba(0,0,0,0.50);
+	font-size: 2.8em;
+	padding-right: 0.6em;
+}
+
+.humi {
+	background-color: #53bbf4; /* Humi Blue */
+	color: #fff;
+	font-size: 0.77em;
+	border-radius: 10%;
+	padding: 3px;
+	border: 1px solid #5099D1; /* Darker Humi Blue */
+}
+
+.list-title {
+	flex: 1;
+	text-align: left;
+	font-size: 1.5em;
+	color: rgba(0,0,0,0.69);
+	font-weight: 200;
+}
+
+/* Right Widget */
+
+.settings {
+	padding: 1.7em 1.5em;
+	color: rgba(0,0,0,0.51);
+}
+
+.settings-title {
+	color: rgba(0,0,0,0.75);
+	font-size: 1.5em;
+	border-bottom: 1px solid rgba(0,0,0,0.10);
+}
+
+.settings-body {
+	line-height: 1.2em;
+	padding: 1em 0;
+}
+
+.settings-form {
+	width: 70%;
+}
+
+.settings-form-element {
+	padding: 0.7em 0;
+}
+
+input {
+	padding: 0.5em 0.6em;
+	margin-left: 1.1em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: rgba(0,0,0,0.51);
+}
+
+input[type="submit"] {
+	cursor: pointer;
+    background-color: #53bbf4; /* Humi Blue */
+    border: 1px solid #5099D1; /* Darker Humi Blue */
+    text-align: left;
+    color: #fff;
+}
+
+input:focus, select:focus {
+    outline: 0;
+    border-color: #53bbf4; /* Humi Blue */
+}
+
+select {
+	font-size: 1em;
+	padding-left: 0.6em;
+    height: 2.3em;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: rgba(0,0,0,0.51);
+}
+select[multiple] {
+    height: auto;
+}
+
+/* Footer Styles */
+
+.search {
+	cursor: pointer;
+	position: absolute;
+	bottom: 0.6em;
+	left: 0.8em;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 50%;
+	padding: 0.5em;
+	font-size: 2em;
+	color: rgba(0,0,0,0.35);
+}
+
+.footer-items {
+	width: 100%;
+}
+
+.footer-item > span{
+	text-decoration: underline;
+	color: rgba(0,0,0,0.35);
+	cursor: pointer;
+}
+
+.footer-items > .cell:not(:last-child):after {
+	padding: 0 1em;
+	content: '\00B7';
+	color: rgba(0,0,0,0.95);
+}
